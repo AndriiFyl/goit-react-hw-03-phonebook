@@ -27,7 +27,7 @@ export default class ContactForm extends React.Component {
      number: '',})
     }
 
-    render() {
+  render() {
         return (
             <form className={css.form} onSubmit={this.handleSubmit}>
         <label className={css.label__wrapper} > 
